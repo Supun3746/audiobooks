@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "audiobooks"
+version = "0.1.0"
+description = ""
+authors = ["Andrey <spoon3847@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic-settings = "^2.5.2"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.34"}
+aiosqlite = "^0.20.0"
+alembic = "^1.13.2"
+black = "^24.8.0"
+aiogram = "^3.13.0"
+pyaspeller = "^2.0.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
